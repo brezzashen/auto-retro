@@ -1,0 +1,13 @@
+{
+  "site": "https://example.com",
+  "reportSlug": "conversion-watch",
+  "posthog": {
+    "host": "https://us.posthog.com",
+    "projectId": "YOUR_POSTHOG_PROJECT_ID"
+  },
+  "staleHours": 24,
+  "cooldowns": {
+    "p0Hours": 2,
+    "p1Hours": 12
+  }
+}

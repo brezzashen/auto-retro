@@ -1,0 +1,38 @@
+{
+  "site": "https://example.com",
+  "gscProperty": "sc-domain:example.com",
+  "reportSlug": "seo-watch",
+  "targets": [
+    {
+      "keyword": "personal crm",
+      "page": "/personal-crm",
+      "market": "US",
+      "language": "en"
+    },
+    {
+      "keyword": "relationship manager app",
+      "page": "/relationship-manager",
+      "market": "US",
+      "language": "en"
+    }
+  ],
+  "discovery": {
+    "hourSgt": 8,
+    "locationCode": 2840,
+    "languageCode": "en",
+    "domain": "example.com",
+    "maxPerDay": 3,
+    "maxNewPagesPerDay": 3,
+    "seeds": [
+      {
+        "page": "/personal-crm",
+        "keyword": "personal crm",
+        "fit": ["crm", "contact", "relationship", "network", "follow up"]
+      }
+    ]
+  },
+  "aisaSeo": {
+    "aiModePerRun": 6,
+    "dailyBudgetUsd": 1.0
+  }
+}

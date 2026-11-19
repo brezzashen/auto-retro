@@ -1,0 +1,19 @@
+[package]
+name = "prompt-review"
+version.workspace = true
+edition = "2021"
+license.workspace = true
+description = "Automated prompt-surface size, literal duplicate, and semantic duplicate analyzer"
+
+[[bin]]
+name = "prompt-review"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
+regex = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sha2 = { workspace = true }
+ureq = { workspace = true }

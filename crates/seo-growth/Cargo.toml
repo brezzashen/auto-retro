@@ -1,0 +1,28 @@
+[package]
+name = "seo-growth"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Autonomous SEO retro, daily keyword discovery room, 6D anomaly detection, dual-model adversarial advisor, and conversion analytics watchdog"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "seo-growth"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = { workspace = true }
+base64 = { workspace = true }
+chrono = { workspace = true }
+hex = { workspace = true }
+regex = { workspace = true }
+reqwest = { workspace = true }
+ryu = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sha2 = { workspace = true }
+tempfile = { workspace = true }
+tokio = { workspace = true }
+url = { workspace = true }

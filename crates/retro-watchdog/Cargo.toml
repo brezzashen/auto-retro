@@ -1,0 +1,21 @@
+[package]
+name = "retro-watchdog"
+version.workspace = true
+edition = "2021"
+license.workspace = true
+description = "Autonomous retrospective and telemetry analysis watchdog for AI coding agents and production services"
+
+[[bin]]
+name = "retro-watchdog"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = { workspace = true }
+base64 = { workspace = true }
+libc = { workspace = true }
+regex = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sha2 = { workspace = true }
+tungstenite = { workspace = true }
+ureq = { workspace = true }
